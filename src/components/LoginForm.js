@@ -13,7 +13,7 @@ class LoginForm extends React.Component {
     this.state = {username:'',password:''};
   }
 
-  handleChange = event => {
+  handleInputChanges = event => {
     this.setState({
       value: event.target.value,
     });
