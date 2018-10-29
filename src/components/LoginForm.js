@@ -4,8 +4,9 @@ class LoginForm extends React.Component {
 
   onSubmit = event => {
     event.preventDefault()
-    this.sendFormDataSomewhere(this.state)
+    this.onSubmit(this.state)
   }
+  
   constructor() {
     super();
 
