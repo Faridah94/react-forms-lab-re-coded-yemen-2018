@@ -6,11 +6,11 @@ class LoginForm extends React.Component {
     event.preventDefault()
     this.onSubmit(this.state)
   }
-  
+
   constructor() {
     super();
 
-    this.state = {};
+    this.state = {username:'',password:''};
   }
 
   handleChange = event => {
