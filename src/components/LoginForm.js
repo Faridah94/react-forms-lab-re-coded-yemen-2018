@@ -2,7 +2,7 @@ import React from "react";
 
 class LoginForm extends React.Component {
 
-  handleSubmit = event => {
+  onSubmit = event => {
     event.preventDefault()
     this.sendFormDataSomewhere(this.state)
   }
