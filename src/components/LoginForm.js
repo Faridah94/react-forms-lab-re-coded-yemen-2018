@@ -5,7 +5,7 @@ class LoginForm extends React.Component {
   handleSubmit = event => {
     event.preventDefault()
     this.sendFormDataSomewhere(this.state)
-  }  
+  }
   constructor() {
     super();
 
@@ -35,9 +35,9 @@ class LoginForm extends React.Component {
         <div>
           <label>
             Password
-            <input 
+            <input
             id="password"
-             name="password" 
+             name="password"
              type="password"
              value={this.state.username}
              onChange={this.handleInputChange} />
